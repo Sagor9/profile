@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(182, 172, 161);
+    margin: 0%;
+}
+#frst{
+    text-align: center;
+    color: aqua;
+}
+.high{
+    color: blue;
+}
+.half-weidth{
+    width: 40%;
+    float: left;
+    padding: 25px 50px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.half-weidth img{
+    margin-top: 5%;
+    width: 70%;
+    height: 70%;
+}
+section{
+    height: 500px;
+}
+.lin_btn{
+    text-decoration: none;
+    text-shadow: 2%;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(173, 203, 193);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.box{
+    box-shadow: 10px 10px 45px gray;
+    border-radius: 10px;
+    height: 50%;
+    width: 38%;
+}
+#part_1{
+    background-image: linear-gradient(pink,purple);
+}
+#part_2{
+    background-image: linear-gradient(purple,aqua);
+}
+#part_3{
+    background-image: linear-gradient(aqua,blue);
+}
+#slc-1{
+    border-left: 5px solid;
+    border-image: linear-gradient(45deg,tomato,salmon);
+    border-image-slice: 1;
+}
+#slc-2{
+    border-left: 5px solid plum;
+}
+footer{
+    text-align: center;
+}
